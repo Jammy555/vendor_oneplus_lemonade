@@ -7,9 +7,9 @@
 
   "mode_type_list":{
     "rear_wide":["video_mode", "photo_mode", "super_text_mode", "macro_mode", "fastvideo_mode", "professional_mode", "xpan_mode", "movie_mode", "long_exposure_mode"],
-    "rear_main":["video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "id_photo_mode", "slowvideo_mode", "movie_mode", "xpan_mode", "panorama_mode", "long_exposure_mode", "night_mode"],
+    "rear_main":["video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "id_photo_mode", "slowvideo_mode", "movie_mode", "xpan_mode", "panorama_mode", "long_exposure_mode"],
     "front_main":["video_mode", "photo_mode", "portrait_mode", "fastvideo_mode", "id_photo_mode", "night_mode", "panorama_mode"],
-    "rear_sat":["video_mode", "super_text_mode", "portrait_mode", "fastvideo_mode","tilt_shift_mode"],
+    "rear_sat":["video_mode", "photo_mode", "super_text_mode", "portrait_mode", "night_mode", "fastvideo_mode","tilt_shift_mode"],
     "rear_main_front_main":["multi_camera_mode"],
     "rear_microscope":["microscope_capture_mode", "microscope_video_mode"],
     "rear_macro":["macro_mode"],
