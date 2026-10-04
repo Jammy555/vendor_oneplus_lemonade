@@ -847,7 +847,6 @@ PRODUCT_PACKAGES += \
     libAlgoProcess \
     libAncFilter \
     libAncHumBokehPost \
-    libAncHumanRetain \
     libAncHumanSegFigureFusion \
     libAncSegBaseSdk \
     libAncSegmentSdk \
@@ -950,7 +949,6 @@ PRODUCT_PACKAGES += \
     libolc_vnd \
     libop-ai-beauty-body-detection \
     libop-ai-beauty-faceretouch-cn \
-    liboplus-uah-client \
     liboplus_dehaze_module \
     liboptical_zoom_dc \
     liboptical_zoom_vs \
@@ -976,7 +974,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.osense.client@1.0 \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
-    vendor.oplus.hardware.urcc-V1-ndk_platform \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     odm_lib_rfsa_adsp_aiboost_libQnnHtpAltPrepSkel_so \

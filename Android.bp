@@ -6351,29 +6351,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libAncHumanRetain",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/odm/lib64/libAncHumanRetain.so",
-            ],
-            shared_libs: [
-                "libm",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libAncHumanSegFigureFusion",
     owner: "oneplus",
     strip: {
@@ -9002,35 +8979,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liboplus-uah-client",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/liboplus-uah-client.so",
-            ],
-            shared_libs: [
-                "vendor.oplus.hardware.urcc-V1-ndk_platform",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "liboplus_dehaze_module",
     owner: "oneplus",
     strip: {
@@ -9752,32 +9700,6 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libhwconfigurationutil",
                 "vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.urcc-V1-ndk_platform",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.oplus.hardware.urcc-V1-ndk_platform.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libjsoncpp",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
