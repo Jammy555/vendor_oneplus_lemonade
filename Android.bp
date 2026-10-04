@@ -11,6 +11,49 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcamxexternalformatutils",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcamxexternalformatutils.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxexternalformatutils.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qti.camx.chiiqutils",
     owner: "oneplus",
     strip: {
@@ -3880,34 +3923,6 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "libc",
                 "libm",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamxexternalformatutils",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcamxexternalformatutils.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },

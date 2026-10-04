@@ -767,6 +767,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn
 
 PRODUCT_PACKAGES += \
+    libcamxexternalformatutils \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -853,7 +854,6 @@ PRODUCT_PACKAGES += \
     libbitmlenginev2 \
     libcamera_nn_stub \
     libcamerapostproc \
-    libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
