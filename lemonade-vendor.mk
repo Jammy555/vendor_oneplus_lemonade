@@ -857,6 +857,7 @@ PRODUCT_PACKAGES += \
     libCOppLceTonemapAPI \
     libCaptureBokeh \
     libEIS \
+    libui-oplus \
     libFDClite \
     libFaceBeautyCap \
     libFaceBeautyJni \
