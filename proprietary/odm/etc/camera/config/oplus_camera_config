@@ -1714,5 +1714,11 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
+},
+{
+  "VendorTag": "com.oplus.video.4k.track.focus.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 }
 ]
