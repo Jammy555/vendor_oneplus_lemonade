@@ -877,7 +877,10 @@ PRODUCT_PACKAGES += \
     libSNPE \
     libSNPE_G \
     libSuperRaw \
+    libSuperTextWrapper \
     libTrafficMode \
+    libXDocProcessSDK \
+    libYTCommon \
     libVDBayerHDR \
     libVDBlurless \
     libVDDualCameraBlurlessAPI \
