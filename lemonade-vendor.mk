@@ -493,6 +493,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/odm/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_ODM)/etc/init/calibrationOutput_uw.rc \
     vendor/oneplus/lemonade/proprietary/odm/etc/init/calibrationOutput_uw_686.rc:$(TARGET_COPY_OUT_ODM)/etc/init/calibrationOutput_uw_686.rc \
     vendor/oneplus/lemonade/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/oneplus/lemonade/proprietary/odm/etc/init/vendor.oplus.hardware.urcc-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.urcc-service.rc \
     vendor/oneplus/lemonade/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/lemonade/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/lemonade/proprietary/odm/etc/inparm/iris5/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm1.txt \
@@ -594,6 +595,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/odm/etc/sensor/config/lahaina_qrd_sx932x_down.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_sx932x_down.json \
     vendor/oneplus/lemonade/proprietary/odm/etc/sensor/config/lahaina_tcs3707.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_tcs3707.json \
     vendor/oneplus/lemonade/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/oneplus/lemonade/proprietary/odm/etc/uah/uahconfig.pb:$(TARGET_COPY_OUT_ODM)/etc/uah/uahconfig.pb \
     vendor/oneplus/lemonade/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oneplus/lemonade/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
     vendor/oneplus/lemonade/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
@@ -879,8 +881,6 @@ PRODUCT_PACKAGES += \
     libSuperRaw \
     libSuperTextWrapper \
     libTrafficMode \
-    libXDocProcessSDK \
-    libYTCommon \
     libVDBayerHDR \
     libVDBlurless \
     libVDDualCameraBlurlessAPI \
@@ -891,6 +891,8 @@ PRODUCT_PACKAGES += \
     libVideoEnhance \
     libWaterMark \
     libWaterMode \
+    libXDocProcessSDK \
+    libYTCommon \
     lib_oplus_starburst_capture \
     lib_oplus_starburst_preview \
     lib_rectify \
@@ -959,6 +961,7 @@ PRODUCT_PACKAGES += \
     libolc_vnd \
     libop-ai-beauty-body-detection \
     libop-ai-beauty-faceretouch-cn \
+    liboplus-uah-client \
     liboplus_dehaze_module \
     liboptical_zoom_dc \
     liboptical_zoom_vs \
@@ -978,12 +981,15 @@ PRODUCT_PACKAGES += \
     libtriplecam_image_optical_zoom \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
+    libuahcore \
+    liburcccore \
     libwatermark_photo \
     libyuvwrapper \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.osense.client@1.0 \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
+    vendor.oplus.hardware.urcc-V1-ndk_platform \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     odm_lib_rfsa_adsp_aiboost_libQnnHtpAltPrepSkel_so \
@@ -1028,7 +1034,9 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libworker_pool_so \
     manifest_oplus_cameraextension_aidl.xml \
     manifest_oplus_fingerprint.xml \
+    vendor.oplus.hardware.urcc-service.xml \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
+    vendor.oplus.hardware.urcc-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
     init.oplus.fingerprints
