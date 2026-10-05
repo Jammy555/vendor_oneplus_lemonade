@@ -950,6 +950,7 @@ PRODUCT_PACKAGES += \
     libSNPE \
     libSNPE_G \
     libSuperRaw \
+    libSuperTextWrapper \
     libTrafficMode \
     libVDBayerHDR \
     libVDBlurless \
@@ -961,6 +962,8 @@ PRODUCT_PACKAGES += \
     libVideoEnhance \
     libWaterMark \
     libWaterMode \
+    libXDocProcessSDK \
+    libYTCommon \
     lib_oplus_starburst_capture \
     lib_oplus_starburst_preview \
     lib_rectify \
