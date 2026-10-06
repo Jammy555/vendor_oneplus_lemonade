@@ -899,9 +899,9 @@ PRODUCT_PACKAGES += \
     libDeVIS \
     libdehaze \
     libfastov_dsp \
+    libnightvision \
     liblvimfs \
     liblvimfs_wrapper \
-    libnightvision \
     anc.hal \
     android.hardware.secure_element@1.0-impl \
     com.qti.sensor.gc02m1b.lemonade \
@@ -919,7 +919,10 @@ PRODUCT_PACKAGES += \
     libAlgoInterface \
     libAlgoProcess \
     libAncFilter \
+    libAncHumBokeh \
     libAncHumBokehPost \
+    libAncHumVideoBase \
+    libAncHumanDoubleExposure \
     libAncHumanSegFigureFusion \
     libAncSegBaseSdk \
     libAncSegmentSdk \
@@ -929,6 +932,7 @@ PRODUCT_PACKAGES += \
     libEIS \
     libFDClite \
     libFaceBeautyCap \
+    libFaceBeautyJni \
     libFaceBeautyPICap \
     libFaceBeautyPre \
     libFaceDistortionCorrection \
@@ -965,6 +969,8 @@ PRODUCT_PACKAGES += \
     libaisd \
     libaiseg \
     libalCFR \
+    libancbase_rt_bokeh \
+    libancbase_segbase \
     libancbase_segment \
     libaps_frame_registration \
     libapsdarksight \
@@ -1022,6 +1028,7 @@ PRODUCT_PACKAGES += \
     libml_util \
     libmpbase \
     libmsnativefilter \
+    libnpu \
     libolc_vnd \
     libop-ai-beauty-body-detection \
     libop-ai-beauty-faceretouch-cn \
