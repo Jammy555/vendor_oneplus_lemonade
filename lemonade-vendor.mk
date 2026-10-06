@@ -915,11 +915,19 @@ PRODUCT_PACKAGES += \
     com.oplus.node.videoenhance \
     fingerprint.goodix_G3.default \
     vendor.qti.esepowermanager@1.1-impl \
+    lib2DSlender \
     libAlgoInterface \
     libAlgoProcess \
+    libAncFilter \
+    libAncHumBokehPost \
+    libAncHumanSegFigureFusion \
+    libAncSegBaseSdk \
     libAncSegmentSdk \
+    libBokehPre \
     libCOppLceTonemapAPI \
+    libCaptureBokeh \
     libEIS \
+    libFDClite \
     libFaceBeautyCap \
     libFaceBeautyPICap \
     libFaceBeautyPre \
@@ -928,13 +936,17 @@ PRODUCT_PACKAGES += \
     libImageWarpMask \
     libOGLManager \
     libOPLUS_SCPortrait \
+    libPerfectColor \
     libPerfectlyClearCrux \
     libPerfectlyClearCruxOpt \
     libPolarrRender \
     libPreviewDecisionOld \
     libQnnHtpStub \
+    libRedeyeReduce \
     libSNPE \
     libSNPE_G \
+    libSuperRaw \
+    libTrafficMode \
     libVDBayerHDR \
     libVDBlurless \
     libVDDualCameraBlurlessAPI \
@@ -950,11 +962,16 @@ PRODUCT_PACKAGES += \
     lib_rectify \
     libaideblur \
     libaisal \
+    libaisd \
+    libaiseg \
+    libalCFR \
     libancbase_segment \
     libaps_frame_registration \
     libapsdarksight \
     libapsexif \
     libapsjpeg \
+    libapspng \
+    libapsyuv \
     libarcsoft_calibverify_TriCamera \
     libarcsoft_distortion_correction \
     libarcsoft_dual_sat \
@@ -974,6 +991,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_high_dynamic_range_couple_v4 \
     libarcsoft_high_dynamic_range_v4 \
     libarcsoft_lensstaindetection \
+    libarcsoft_long_exposure_capture \
+    libarcsoft_long_exposure_preview \
     libarcsoft_low_light_hdr \
     libarcsoft_pic_best \
     libarcsoft_portraitSN_hvx_stub \
@@ -992,12 +1011,14 @@ PRODUCT_PACKAGES += \
     libdualcam_image_optical_zoom \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libeffect_custom \
     libexif-jpeg-aps \
     libextendfile \
     libgf_hal_G3 \
     libhta \
     libhwconfigurationutil_odm \
     libhyperlapse \
+    libimgClarityEvaluate \
     libml_util \
     libmpbase \
     libmsnativefilter \
@@ -1010,6 +1031,7 @@ PRODUCT_PACKAGES += \
     libormshalclient \
     libosenseaidlhalclient \
     libosensehalclient \
+    libpngwrapper \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
     libsnpe_htp \
@@ -1023,6 +1045,7 @@ PRODUCT_PACKAGES += \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libwatermark_photo \
+    libyuvwrapper \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.osense.client@1.0 \
