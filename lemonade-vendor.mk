@@ -767,7 +767,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn
 
 PRODUCT_PACKAGES += \
-    libcamxexternalformatutils \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -854,6 +853,7 @@ PRODUCT_PACKAGES += \
     libbitmlenginev2 \
     libcamera_nn_stub \
     libcamerapostproc \
+    libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
@@ -896,10 +896,6 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    libDeVIS \
-    libdehaze \
-    libfastov_dsp \
-    libnightvision \
     liblvimfs \
     liblvimfs_wrapper \
     anc.hal \
@@ -929,6 +925,7 @@ PRODUCT_PACKAGES += \
     libBokehPre \
     libCOppLceTonemapAPI \
     libCaptureBokeh \
+    libDeVIS \
     libEIS \
     libFDClite \
     libFaceBeautyCap \
@@ -1017,12 +1014,14 @@ PRODUCT_PACKAGES += \
     libarcsoft_triple_sat \
     libarcsoft_triple_zoomtranslator \
     libarcsoft_videoautozoom \
+    libdehaze \
     libdualcam_image_optical_zoom \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
     libeffect_custom \
     libexif-jpeg-aps \
     libextendfile \
+    libfastov_dsp \
     libgf_hal_G3 \
     libhta \
     libhwconfigurationutil_odm \
@@ -1031,6 +1030,7 @@ PRODUCT_PACKAGES += \
     libml_util \
     libmpbase \
     libmsnativefilter \
+    libnightvision \
     libnpu \
     libolc_vnd \
     libop-ai-beauty-body-detection \
